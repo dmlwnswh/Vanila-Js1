@@ -46,7 +46,7 @@ const author = document.querySelector('#quote span:last-child');
 
 
 //we want to get random num 0 to 9
-console.log(quotes.length);
+
 const todaysQuote = quotes[Math.floor(Math.random()*quotes.length)]; //Math.random() ->  0~1 random num
 
 quote.innerText = todaysQuote.quote;
